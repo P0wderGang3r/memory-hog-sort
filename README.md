@@ -8,11 +8,14 @@
 ```
 10000 элементов в пределах от 0 до 10000.
 
-Memory hog. Time estimated: 22458642 нс.
+Memory hog.
+Time estimated: 22458642 нс.
 
-Bubble. Time estimated: 790129761 нс.
+Bubble.
+Time estimated: 790129761 нс.
 
-Quick. Time estimated: 7823449 нс.
+Quick.
+Time estimated: 7823449 нс.
 ```
 ## Как работает
 1. Поиск минимума и максимума в исходном массиве.
