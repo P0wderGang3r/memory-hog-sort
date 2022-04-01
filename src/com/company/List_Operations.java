@@ -5,6 +5,17 @@ import java.util.Random;
 import java.util.random.RandomGenerator;
 
 public class List_Operations {
+
+    public static ArrayList<List_Type> clone(ArrayList<List_Type> prev_list) {
+        ArrayList<List_Type> new_list = new ArrayList<>();
+
+        for (List_Type list_entry: prev_list) {
+            new_list.add(new List_Type(list_entry.value));
+        }
+
+        return new_list;
+    }
+
     public static ArrayList<List_Type> generate_list(int length, int bounds) {
         Random random = new Random();
         ArrayList<List_Type> list = new ArrayList<>();
@@ -16,7 +27,7 @@ public class List_Operations {
         return list;
     }
 
-    public static ArrayList<List_Type> alt_generate_list() {
+    public static ArrayList<List_Type> alt_generate_list(int length, int bounds) {
         ArrayList<List_Type> list = new ArrayList<>();
 
         list.add(new List_Type(37));

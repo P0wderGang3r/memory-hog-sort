@@ -81,10 +81,4 @@ public class My_Sort_Declaration {
 
         return final_list;
     }
-
-    static ArrayList<List_Type> reverse_sort(ArrayList<List_Type> default_list) {
-        //TODO сортировка в обратную сторону
-
-        return default_list;
-    }
 }

@@ -20,8 +20,9 @@ public class Globals {
 
     public static void print_log_final(ArrayList<List_Type> list) {
         if (Globals.show_process > 0) {
+            System.out.print(" | ");
             for (List_Type list_entry : list) {
-                System.out.println(list_entry.value);
+                System.out.print(list_entry.value + " | ");
             }
         }
     }
