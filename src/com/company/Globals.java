@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 public class Globals {
-    public static int show_process = 2;
+    public static int show_process = 0;
 
     public static void print_log_in_process(ArrayList<ArrayList<List_Type>> list_of_lists) {
         if (Globals.show_process > 1) {
