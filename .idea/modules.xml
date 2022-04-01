@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/quasi-linear-sort.iml" filepath="$PROJECT_DIR$/quasi-linear-sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memory-hog-sort.iml" filepath="$PROJECT_DIR$/memory-hog-sort.iml" />
     </modules>
   </component>
 </project>
